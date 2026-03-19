@@ -1,0 +1,7 @@
+build_command: "pip install -r requirements.txt"
+start_command: "gunicorn app:app"
+```
+
+**Step 2** — Make sure `gunicorn` is in `requirements.txt`. Open `backend/requirements.txt` and confirm this line exists:
+```
+gunicorn==22.0.0

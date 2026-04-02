@@ -3,7 +3,7 @@ import axios from "axios";
 import {
   RadarChart, Radar, PolarGrid, PolarAngleAxis,
   BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
-  ResponsiveContainer, Cell, LineChart, Line
+  ResponsiveContainer, Cell
 } from "recharts";
 
 const API = "https://placement-suite-api.onrender.com";

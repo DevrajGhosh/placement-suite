@@ -15,14 +15,6 @@ CORS(
     supports_credentials=True
 )
 
-# ✅ ADD THIS (CRITICAL FOR PREFLIGHT)
-@app.after_request
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', 'https://placement-suite-swart.vercel.app')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS')
-    return response
-
 
 app.config["JWT_SECRET_KEY"] = "dev-secret"
 jwt = JWTManager(app)

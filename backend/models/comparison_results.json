@@ -1,0 +1,57 @@
+[
+  {
+    "model": "Random Forest",
+    "test_acc": 86.0,
+    "cv_acc": 84.2,
+    "cv_std": 4.7,
+    "auc": 0.931
+  },
+  {
+    "model": "XGBoost",
+    "test_acc": 81.4,
+    "cv_acc": 84.7,
+    "cv_std": 6.0,
+    "auc": 0.944
+  },
+  {
+    "model": "SVM",
+    "test_acc": 79.1,
+    "cv_acc": 81.9,
+    "cv_std": 2.7,
+    "auc": 0.915
+  },
+  {
+    "model": "Logistic Regression",
+    "test_acc": 88.4,
+    "cv_acc": 82.8,
+    "cv_std": 3.2,
+    "auc": 0.956
+  },
+  {
+    "model": "Naive Bayes",
+    "test_acc": 90.7,
+    "cv_acc": 80.5,
+    "cv_std": 7.1,
+    "auc": 0.954
+  },
+  {
+    "model": "KNN",
+    "test_acc": 81.4,
+    "cv_acc": 84.2,
+    "cv_std": 3.1,
+    "auc": 0.901
+  },
+  {
+    "feature_importance": {
+      "ssc_p": 0.2536,
+      "academic_score": 0.2219,
+      "degree_p": 0.1145,
+      "hsc_p": 0.1047,
+      "mba_p": 0.0854,
+      "workex": 0.0768,
+      "gender": 0.0615,
+      "etest_p": 0.0415,
+      "specialisation": 0.04
+    }
+  }
+]

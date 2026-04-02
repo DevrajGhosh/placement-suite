@@ -6,7 +6,7 @@ import {
   ResponsiveContainer, Cell, LineChart, Line
 } from "recharts";
 
-const API = "http://localhost:5000/api";
+const API = "https://placement-suite-api.onrender.com";
 const getToken = () => localStorage.getItem("token");
 const authHeader = () => ({ Authorization: `Bearer ${getToken()}` });
 

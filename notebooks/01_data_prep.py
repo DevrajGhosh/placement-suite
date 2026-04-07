@@ -21,7 +21,7 @@ import seaborn as sns
 import os
 
 # ── 1. Load Data ──────────────────────────────────────────────────────────────
-df = pd.read_csv("data/Placement_Data_Full_Class.csv")
+df = pd.read_csv(r"C:\Users\mysel\OneDrive\Desktop\placement_suite\data\Placement_Data_Full_Class.csv")
 print("Shape:", df.shape)
 print(df.head())
 print(df.info())

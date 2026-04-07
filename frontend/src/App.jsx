@@ -24,7 +24,7 @@ function Auth({ onLogin }) {
   const submit = async (e) => {
     e.preventDefault(); setError("");
     try {
-      const url = isLogin ? `${API}/auth/login` : `${API}/auth/register`;
+      const url = isLogin ? `${API}/api/auth/login` : `${API}/api/auth/register`;
       const { data } = await axios.post(url, form);
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data.user));
